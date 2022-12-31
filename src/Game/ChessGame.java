@@ -35,6 +35,8 @@ public class ChessGame {
         jf.setResizable(false); //does not allow the screen to be resized
         jf.setLocationRelativeTo(null); //centres the screen to the middle
         jf.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE); //makes sure that the window is closed when you press the 'x' 
+   
+       
     }
 }
 

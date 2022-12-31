@@ -3,8 +3,12 @@ package Game;
 import javax.swing.*;
 
 public class ChessGame {
+    
+    //The Board
+    //smallcase means black
+    //uppercase means white
 
-    static String board[][] = new String[][]{                                                                       // This string array represents the chessboard.  Each time we make a move this board is updated
+    static String board[][] = new String[][]{    
             {"r", "n", "b", "q", "k", "b", "n", "r"},
             {"p", "p", "p", "p", "p", "p", "p", "p"},
             {" ", " ", " ", " ", " ", " ", " ", " "},
@@ -19,6 +23,8 @@ public class ChessGame {
     static int blackKing, whiteKing, moves;
 
     public static void main(String[] args) {
+        
+        //The screen
 
         UserInterface gui = new UserInterface();
 

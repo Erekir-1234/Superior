@@ -28,13 +28,13 @@ public class ChessGame {
 
         UserInterface gui = new UserInterface();
 
-        JFrame jf = new JFrame("Superior");
+        JFrame jf = new JFrame("Superior"); //initiatated screen and screen title
         jf.add(gui);
-        jf.setSize(475, 500);
-        jf.setVisible(true);
-        jf.setResizable(false);
-        jf.setLocationRelativeTo(null);
-        jf.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
+        jf.setSize(475, 500); //screen size
+        jf.setVisible(true); // makes the screen visisble
+        jf.setResizable(false); //does not allow the screen to be resized
+        jf.setLocationRelativeTo(null); //centres the screen to the middle
+        jf.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE); //makes sure that the window is closed when you press the 'x' 
     }
 }
 
